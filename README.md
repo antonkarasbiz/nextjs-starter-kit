@@ -192,7 +192,7 @@ Optional features (easy to add):
 
 ### Requirements
 
-- Node.js 22+ and npm
+- Node.js 24+ and npm
 
 ### Getting started
 
