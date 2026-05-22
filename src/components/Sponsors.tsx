@@ -14,7 +14,10 @@ export const Sponsors = () => (
     <tbody>
       <tr className="h-56">
         <td className="border-2 border-gray-300 p-3">
-          <a href="https://clerk.com?utm_source=github&utm_medium=sponsorship&utm_campaign=nextjs-boilerplate">
+          <a
+            aria-label="Visit Clerk"
+            href="https://clerk.com?utm_source=github&utm_medium=sponsorship&utm_campaign=nextjs-boilerplate"
+          >
             <Image
               src={clerkLogo}
               alt="Clerk – Authentication & User Management for Next.js"
@@ -23,46 +26,64 @@ export const Sponsors = () => (
           </a>
         </td>
         <td className="border-2 border-gray-300 p-3">
-          <a href="https://www.coderabbit.ai?utm_source=next_js_starter&utm_medium=github&utm_campaign=next_js_starter_oss_2025">
+          <a
+            aria-label="Visit CodeRabbit"
+            href="https://www.coderabbit.ai?utm_source=next_js_starter&utm_medium=github&utm_campaign=next_js_starter_oss_2025"
+          >
             <Image src={codeRabbitLogo} alt="CodeRabbit" width={220} />
           </a>
         </td>
         <td className="border-2 border-gray-300 p-3">
-          <a href="https://sentry.io/for/nextjs/?utm_source=github&utm_medium=paid-community&utm_campaign=general-fy25q1-nextjs&utm_content=github-banner-nextjsboilerplate-logo">
+          <a
+            aria-label="Visit Sentry"
+            href="https://sentry.io/for/nextjs/?utm_source=github&utm_medium=paid-community&utm_campaign=general-fy25q1-nextjs&utm_content=github-banner-nextjsboilerplate-logo"
+          >
             <Image src={sentryLogo} alt="Sentry" width={220} />
           </a>
         </td>
       </tr>
       <tr className="h-56">
         <td className="border-2 border-gray-300 p-3">
-          <a href="https://launch.arcjet.com/Q6eLbRE">
+          <a aria-label="Visit Arcjet" href="https://launch.arcjet.com/Q6eLbRE">
             <Image src={arcjetLogo} alt="Arcjet" width={220} />
           </a>
         </td>
         <td className="border-2 border-gray-300 p-3">
-          <a href="https://l.crowdin.com/next-js">
+          <a aria-label="Visit Crowdin" href="https://l.crowdin.com/next-js">
             <Image src={crowdinLogo} alt="Crowdin" width={220} />
           </a>
         </td>
         <td className="border-2 border-gray-300 p-3">
-          <a href="https://betterstack.com/?utm_source=github&utm_medium=sponsorship&utm_campaign=next-js-boilerplate">
+          <a
+            aria-label="Visit Better Stack"
+            href="https://betterstack.com/?utm_source=github&utm_medium=sponsorship&utm_campaign=next-js-boilerplate"
+          >
             <Image src={betterStackLogo} alt="Better Stack" width={220} />
           </a>
         </td>
       </tr>
       <tr className="h-56">
         <td className="border-2 border-gray-300 p-3">
-          <a href="https://posthog.com/?utm_source=github&utm_medium=sponsorship&utm_campaign=next-js-boilerplate">
+          <a
+            aria-label="Visit PostHog"
+            href="https://posthog.com/?utm_source=github&utm_medium=sponsorship&utm_campaign=next-js-boilerplate"
+          >
             <Image src={posthogLogo} alt="PostHog" width={220} />
           </a>
         </td>
         <td className="border-2 border-gray-300 p-3">
-          <a href="https://www.checklyhq.com/?utm_source=github&utm_medium=sponsorship&utm_campaign=next-js-boilerplate">
+          <a
+            aria-label="Visit Checkly"
+            href="https://www.checklyhq.com/?utm_source=github&utm_medium=sponsorship&utm_campaign=next-js-boilerplate"
+          >
             <Image src={checklyLogo} alt="Checkly" width={220} />
           </a>
         </td>
         <td className="border-2 border-gray-300 p-3">
-          <a href="https://nextjs-boilerplate.com/pro-saas-starter-kit">
+          <a
+            aria-label="Visit Next.js SaaS Boilerplate"
+            href="https://nextjs-boilerplate.com/pro-saas-starter-kit"
+          >
             <Image src={nextJsBoilerplateLogo} alt="Next.js SaaS Boilerplate" width={220} />
           </a>
         </td>
