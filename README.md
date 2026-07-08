@@ -524,7 +524,7 @@ Then, you can open https://local.drizzle.studio with your favorite browser to ex
 
 ### VSCode information (optional)
 
-If you are VSCode user, you can have a better integration with VSCode by installing the suggested extension in `.vscode/extension.json`. The starter code comes up with Settings for a seamless integration with VSCode. The Debug configuration is also provided for frontend and backend debugging experience.
+If you are VSCode user, you can have a better integration with VSCode by installing the suggested extensions in `.vscode/extensions.json`. The starter code comes up with Settings for a seamless integration with VSCode. The Debug configuration is also provided for frontend and backend debugging experience.
 
 With the plugins installed in your VSCode, ESLint and Prettier can automatically fix the code and display errors. The same applies to testing: you can install the VSCode Vitest extension to automatically run your tests, and it also shows the code coverage in context.
 
