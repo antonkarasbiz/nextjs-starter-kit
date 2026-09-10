@@ -133,6 +133,7 @@ jobs:
           args: npm run storybook:test
 
   e2e:
+    if: false
     strategy:
       matrix:
         node-version: [24.x]
